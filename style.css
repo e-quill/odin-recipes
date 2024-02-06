@@ -27,34 +27,30 @@ ul {
   padding: 0%;
 }
 
-.home-list li {
-  list-style: none;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 10px;
-  font-weight: bold;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.home-list{
-  border-style: solid;
-  border-color: gold;
-  border-spacing: 5px;
-  border-width: 5px;
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.home-list a {
-  text-decoration: none;
-  color: pink;
-}
-
 .back {
   font-size: 30px;
   text-decoration: none;
   color: black;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.home-list{
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.home-list a{
+  text-decoration: none;
+  color: black;
+}
+
+.home-list li{
+  display: inline-block;
+  margin: auto 12px;
+  font-size: 25px;
+  background-color: gold;
+  border-style: solid;
+  padding: 7px;
+  border-width: 1.5px;
+  font-family:'Times New Roman', Times, serif;
 }
